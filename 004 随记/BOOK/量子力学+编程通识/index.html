@@ -1,0 +1,598 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="LargeSkull の Blog" href="https://largeskull.github.io/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="LargeSkull の Blog" href="https://largeskull.github.io/atom.xml" />
+<link rel="alternate" type="application/json" title="LargeSkull の Blog" href="https://largeskull.github.io/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="book,《量子力学》《编程通识》" />
+
+
+<link rel="canonical" href="https://largeskull.github.io/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E7%BC%96%E7%A8%8B%E9%80%9A%E8%AF%86/">
+
+
+
+  <title>
+《量子力学》+《编程通识》 - 004 随记 |
+LargeSkull = LargeSkull の Blog = Eureka Moment！</title>
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">《量子力学》+《编程通识》
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="Created: 2024-08-04 00:00:00">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">Posted on</span>
+    <time itemprop="dateCreated datePublished" datetime="2024-08-04T00:00:00+08:00">2024-08-04</time>
+  </span>
+  <span class="item" title="Symbols count in article">
+    <span class="icon">
+      <i class="ic i-pen"></i>
+    </span>
+    <span class="text">Symbols count in article</span>
+    <span></span>
+    <span class="text">words</span>
+  </span>
+  <span class="item" title="Reading time">
+    <span class="icon">
+      <i class="ic i-clock"></i>
+    </span>
+    <span class="text">Reading time</span>
+    <span>NaN:aN</span>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">LargeSkull</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://i.loli.net/2020/10/30/Y1CBXqgeokEs457.jpg"></li>
+          <li class="item" data-background-image="https://s2.loli.net/2024/10/09/afAiwnC6Y9DSZoq.webp"></li>
+          <li class="item" data-background-image="https://s2.loli.net/2024/10/09/9fEdCwYiGLz1Rme.webp"></li>
+          <li class="item" data-background-image="https://s2.loli.net/2024/10/09/4HC76yGJVXaUD8g.webp"></li>
+          <li class="item" data-background-image="https://s2.loli.net/2024/10/09/CuX1zTdq9PLv7ek.png"></li>
+          <li class="item" data-background-image="https://s2.loli.net/2024/10/09/zOf8drntiSX1pIm.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">Home</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/004-%E9%9A%8F%E8%AE%B0/" itemprop="item" rel="index" title="In 004 随记"><span itemprop="name">004 随记</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="en">
+  <link itemprop="mainEntityOfPage" href="https://largeskull.github.io/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E7%BC%96%E7%A8%8B%E9%80%9A%E8%AF%86/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="小叶子">
+    <meta itemprop="description" content="Eureka Moment！, 莽撞的开始，拙劣的完成，也好过因心怀完美主义而不动手去做。">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="LargeSkull の Blog">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <p><strong>2024&#x2F;8&#x2F;4</strong><br><strong>量子力学</strong></p>
+<p>在牛顿力学中，只要知道一个物体起始的速度，质量和受力情况，就能计算出这个物体在未来某一刻的具体位置。未来发生的一切早已被起始位置确定好，比如你的人生从宇宙诞生那一刻就已经被设定好了。</p>
+<p>这叫机械决定论，也叫宿命论。</p>
+<p>但是电子绕着原子核的运动也许是随机的。电子运动否定了机械决定论<br>所有微观粒子的位置都是随机的。（所以说这样是不是又可以制造出一个个性签名来？）<br>是由微观粒子组成的，所以人可以逆天改命。</p>
+<p>「我们是智慧生命体」（</p>
+<p>一个光子所能传递的能量就是微观世界中最小的单位。<br>对能量的传递并不连续，而是有间隔的。<br>叫做能量量子化。</p>
+<p>只要是不可细分的概念都叫做量子化。<br>光粒子的本质更像一个波。所以先要默认所有的粒子都是波。<br>波的能量往往会聚集在某个固定的空间尺度上，形成波包。波包越聚集就越像个例子，这也可以体现出波粒二象性。</p>
+<p>事实上，测不准原理正是由波粒二象性所造成的。<br>海森堡认为粒子的位置和动量信息不能够同时精确测量。位置测量的越精确，动量就越不精确，这主要是由于测量仪器发射的粒子所造成的。</p>
+<p>但是当代的量子理论不认为这是正确的测量仪器固然会被测量干扰进行干扰，但这不是主要原因。主要原因是粒子的本质就是波测量波的精确位置相当于测量绳板产生的波动位置，这是毫无意义的。因为波就不可能存在完美的物质，测量动量也是这个道理，粒子不存在完美的动量。<br>“测不准原理。”这个名词会误导大众，让人误以为是人类科技手段有限造成的测不准，实际上则是因为微观粒子的内禀属性。。现在被改成不确定性原理的叫法（内禀可以用来形容一个事物或个体内在的性质、品质和特征。在生物学、心理学、哲学、宗教、社会学等各种领域都经常使用内禀一词来描述内在的特征或本质。）</p>
+<p>微观粒子还有一个十分普遍特性，就是态叠加原理。是我们常说的量子叠加，比如电子的自旋既是上旋又同时下旋，这种匪夷所思的现象也令薛定谔困惑。<br>所以薛定谔把微观转化到宏观方向，就是那只既死又活的猫。</p>
+<p>之所以会导致量子叠加态消失，因为测量仪器要发射出某种粒子探测。被测量的粒子原先的叠加态会因为这些粒子的干扰而消失，这就是测量坍塌效应。</p>
+<p>只要我们不测量那么波包本身和这条波是一个整体，所以在空间的位置是叠加在一起的，粒子又在这儿又同时在那儿，可以同时存在于多个位置。就是叠加态的体现。</p>
+<p>这种角度理解量子纠缠。两个纠缠粒子通常是同一条波，只不过测量行为会导致这条波坍塌出两个波包。这两个包包在没有测量之前本来就是共同叠加态的波测量会导致叠加态消失，变成两个确定的波包。</p>
+<p>但是作为观察者的我们好像这两个例子可以无视空间而同时作用。是量子纠缠的超光速现象。<br>本质上来说两个纠缠粒子本身就是同一个粒子，所以对一个粒子的测量其实也就是对另一个粒子的测量，所以量子纠缠必然是同时发生的，并不存在什么实质上的物质运动，所以不能传递信息和能量。</p>
+<p>「潘建伟教授对叠加态的解释」——睁开眼睛看一看会对他的结果有影响，没有办法把这种影响消除到可以忽略，这种影响是巨大的。所以观测者的行为可以影响体系的演化。</p>
+<p>宏观世界中——在我们的日常生活中，总是会有这样一双眼睛去看着这个飞机。</p>
+<p>微观世界中的一些分子是会逃脱我们的监控。所以它可以处于量子叠加，我们的宏观世界没有这种情况，而微观世界现象比比皆是。</p>
+<p>量子叠加才是宇宙中最普遍且最正常的现象。我们生活在叠加态已经坍塌过的宏观世界，基于宏观世界归纳出的牛顿力学是先入为主的，所以我们才认为非叠加态才是正常的。（王阳明所说——此花与汝同归于尽。）</p>
+<p>观世界中会遭受到各种干扰，比如宇宙中无处不在的光子会撞击宏观物质干扰的本质相当于测量坍塌效应，导致宏观世界的叠加态都坍塌掉了，而呈现出确定的状态。<br>最直接的证明是空气分子的叠加态和分子尺度上的量子纠缠。比原子大很多的物质，只要不被其他物质干扰，依然会出现叠加状态。</p>
+<p>单个光子是无法克隆的。</p>
+<p>包的性质是叠加态的，如果要复制这个光子的状态，就得把光子一分为二，但是光子是量子不可以再分，所以这个方法被毒死。第二个方法是测量这个光子的信息，根据信息重新还原成一个相同的光子，但是由于测量坍塌效应，一旦测量会导致光子原来的叠加态消失，所以我永远无法得到光子原来的叠加状态。</p>
+<p>传统的电磁波通信是发射频率高低不同的大量光子，光子的频率高低代表零和一，所以窃听者可以在光子传递的过程中偷走少部分的光子，通过光子的频率高低解读出通信的内容。</p>
+<p>而量子通信是利用单光子不可克隆原理进行量子密钥发放，理论上可以做到信息的绝对安全。<br>窃听者想要窃听，要么偷走光子，要么测量光子。而单个光子一旦被偷走，那直接就被发现，这样就证明了传递信息的过程已经被窃听，干脆就不发送信息了。如果窃听者只是窃听的话会引发测量坍塌效应也会被发现，只要量子通信被窃听就一定会被发现。</p>
+<p>量子通信最大的贡献就是得知通信过程是否被窃听，而不是阻止窃听行为。</p>
+<p><strong>2024&#x2F;8&#x2F;5</strong><br><strong>编程通识</strong><br><strong>001</strong><br>底层思维<br>看一遍就可以从不知道变为知道，持续的在学习过程中释放价值。投入产出比很高。</p>
+<p>图灵机虽然不能把所有事情都解决掉，但已经是我们现在能想到的通用计算机解决方案的上限了，所有其他的方案要么是不如他，要么和他一样。<br>凡是和图灵机一样的方案都叫做图灵完备。比如拉姆达演算法，元胞自动机等等。<br>真实的需求翻译成有软件可以执行的过程叫做建模。<br>如果选择了不同的通用计算机，在数学世界里的基本模块是不一样的。其中图灵机的基本模块就是数据加指令。<br>图灵机的数据加指令相当于一个套路，遇到了问题先想问题哪些部分可以作为数据，哪些部分可以作为指令，先把问题拆解之后再说。<br>任何不同的地方都可以投射成数据。<br>可以投射和应该投射是两个问题。<br>所以说不需要区分不同的数据类型吗？万一不同的东西投射成同一个数据类型怎么办呢？不同的东西投射成数据之后，那个数字应该是多少？可以随便来的吗？</p>
+<p><strong>002</strong><br>拉姆达演算法 构建底层的逻辑。<br>元胞自动机最早是冯诺依曼提出的<br>无法被规约的运行规律 优胜劣汰<br>图灵机和拉姆达他们都需要极大的计算量，相当于有一个上帝的手在把控着。指数级别的增加<br>并不能解决演化问题，就相当于用计划经济去解决经济问题一样，最后只能捉襟见肘。<br>冯诺依曼瓶颈。<br>元胞自动机个体和群体永兴存在鸿沟。<br>神经网络<br>宇宙之中有量子纠缠，在普朗克尺度之下，宇宙到底怎么连接我们不清楚。<br>图灵机和拉姆达演算法他们的困境就是来源于计算和储存中心化，想要解决必须要中心化给去掉。<br>电脑芯片的概念被提出来，电脑芯片和现在处理器完全不一样，它有许许多多存算一体单元所组成。<br>忆阻器<br>像个神经元，神经元会记忆之前的激活状态，越是被经常激活的神经元，包裹他的髓鞘就会越厚，髓鞘越厚，神经元就容易被激活。<br>元胞自动机的非线性关系无法预知，只能把它当成一个黑盒子，压根不打开它，我们只需要知道输入和输出，然后去判断输出的结果和我们预期相差了多少，然后根据相差了多少去调整输入的信息。<br>所以这相当于一种学习。<br>。这就是一个相当于深度学习一样的算法，先虚拟的搭建起神经网络来比如需要有多少个隐藏层，隐藏层中有多少个神经元？层与层之间如何连接？是卷积加池化还是全连接，选择什么样的激活函数，什么样的损失函数？<br>还需要实现学习的过程，也是那个反馈的回路。反馈的回路闪电网络里面实现的就是反向传播算法，是随机梯度下降法呢还是牛顿法呢或者是adam方法呢？<br>过拟合处理<br>更靠近泛化的这一边还是当前的例子呢。<br>深度学习是一个非线性的演化黑盒子。<br>类脑芯片</p>
+<p><strong>003</strong><br>软件工程为什么比其他工程项目复杂性更高？复杂性不是说开发和解决问题的维度。软件开发具有着内在的属性。软件工程的复杂性在于它是来自于软件工程的三重耦合。功能和功能之间耦合，人和人之间耦合，过去和未来之间的耦合。<br>1.功能和功能<br>如何切割划分子系统？<br>软件开发的协作中。避免有bug协作天然具有猜疑链，会影响着开发团队的协作效率。<br>2.解耦可以降低项目的复杂性，让我们更容易理解开发实现相当于在两个板块中获得更多道路的联系。<br>耦合 在解耦和建立偶联之间如何选择？培养一种取舍的能力。考虑的是更高的开发效率还是更高的性能?</p>
+<p><strong>004</strong><br>计算机解决问题可以分成三个重要环节。<br>一 建模：如何把现实问题用计算机的方式给描述出来<br>（多样性）<br>二 算法：选择能被计算机去执行的描述方式。<br>（创意和灵感，找到合适的算法，我现在基础算法比较多，很少需要从0~1的创造，更多的是对原有算法的优化和整合。）<br>三 对算法分门别类，分析它们的运行情况，对算法进行复杂度分析。<br>（数学分析能力，把算法过程进行量化。相当于第二个环节的补充。）</p>
+
+      <div class="tags">
+          <a href="/tags/book/" rel="tag"><i class="ic i-tag"></i> book</a>
+          <a href="/tags/%E3%80%8A%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E3%80%8B%E3%80%8A%E7%BC%96%E7%A8%8B%E9%80%9A%E8%AF%86%E3%80%8B/" rel="tag"><i class="ic i-tag"></i> 《量子力学》《编程通识》</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2024-10-02 01:58:49" itemprop="dateModified" datetime="2024-10-02T01:58:49+08:00">2024-10-02</time>
+  </span>
+  <span id="004 随记/BOOK/量子力学+编程通识/" class="item leancloud_visitors" data-flag-title="《量子力学》+《编程通识》" title="Views">
+      <span class="icon">
+        <i class="ic i-eye"></i>
+      </span>
+      <span class="text">Views</span>
+      <span class="leancloud-visitors-count"></span>
+      <span class="text">times</span>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> Donate</button>
+  <p>Give me a cup of [coffee]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="小叶子 WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="小叶子 Alipay">
+        <p>Alipay</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/paypal.png" alt="小叶子 PayPal">
+        <p>PayPal</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>Post author:  </strong>小叶子 <i class="ic i-at"><em>@</em></i>LargeSkull の Blog
+  </li>
+  <li class="link">
+    <strong>Post link: </strong>
+    <a href="https://largeskull.github.io/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E7%BC%96%E7%A8%8B%E9%80%9A%E8%AF%86/" title="《量子力学》+《编程通识》">https://largeskull.github.io/004 随记/BOOK/量子力学+编程通识/</a>
+  </li>
+  <li class="license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%9C%86%E5%9C%88%E6%AD%A3%E4%B9%89%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;s2.loli.net&#x2F;2024&#x2F;10&#x2F;09&#x2F;JRETbWIesO9BSDk.webp" title="《圆圈正义》（摘）">
+  <span class="type">Previous Post</span>
+  <span class="category"><i class="ic i-flag"></i> 004 随记</span>
+  <h3>《圆圈正义》（摘）</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E8%8B%B1%E5%9B%BD%E9%A3%9F%E7%89%A9%E5%B0%8F%E8%AE%B0/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;i.loli.net&#x2F;2020&#x2F;10&#x2F;30&#x2F;Y1CBXqgeokEs457.jpg" title="英国食物小记">
+  <span class="type">Next Post</span>
+  <span class="category"><i class="ic i-flag"></i> 004 随记</span>
+  <h3>英国食物小记</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+      </div>
+      <div class="related panel pjax" data-title="Related">
+        <ul>
+          <li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%81%9A%E4%B8%80%E4%B8%AA%E6%B8%85%E9%86%92%E7%9A%84%E7%8E%B0%E4%BB%A3%E4%BA%BA%E3%80%8B/" rel="bookmark" title="《做一个清醒的现代人》（摘）">《做一个清醒的现代人》（摘）</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E7%A9%BF%E8%BF%9B%E8%B5%9B%E5%8D%9A%E6%B8%B8%E6%88%8F%E5%90%8E%E5%B9%B2%E6%8E%89BOSS%E6%88%90%E5%8A%9F%E4%B8%8A%E4%BD%8D%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="bookmark" title="《穿进赛博游戏后干掉BOSS成功上位》（摘）">《穿进赛博游戏后干掉BOSS成功上位》（摘）</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/%E5%85%B6%E5%AE%83/%E3%80%8C%E6%97%A0%E7%97%9B%E5%8F%A3%E8%AF%AD%E5%8F%98native%E3%80%8D/" rel="bookmark" title="「无痛口语变native」">「无痛口语变native」</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E6%B5%81%E6%B0%B4%E8%B4%A6%E4%B9%8B%E2%80%9C%E5%B0%91%E5%B9%B4%E7%8F%AD%E4%B9%8B%E8%B7%AF%E2%80%9D/" rel="bookmark" title="流水账之“少年班之路”">流水账之“少年班之路”</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E7%9E%8E%E6%8E%B0%E6%8E%B0%E6%88%91%E5%92%8C%E8%AF%AD%E6%96%87/" rel="bookmark" title="瞎掰掰我和语文">瞎掰掰我和语文</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E2%80%9C%E7%96%AF%E5%AD%90%EF%BC%9F%E5%AD%A6%E6%9C%AF%E7%96%AF%E5%AD%90%EF%BC%81%E2%80%9D/" rel="bookmark" title="疯子？学术疯子！">疯子？学术疯子！</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E3%80%8C%E5%A4%B8%E8%B5%9E%E4%B8%8E%E8%87%AA%E5%8D%91%E3%80%8D/" rel="bookmark" title="「夸赞与自卑」">「夸赞与自卑」</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%9C%86%E5%9C%88%E6%AD%A3%E4%B9%89%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="bookmark" title="《圆圈正义》（摘）">《圆圈正义》（摘）</a></li><li class="active"><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6+%E7%BC%96%E7%A8%8B%E9%80%9A%E8%AF%86/" rel="bookmark" title="《量子力学》+《编程通识》">《量子力学》+《编程通识》</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E8%8B%B1%E5%9B%BD%E9%A3%9F%E7%89%A9%E5%B0%8F%E8%AE%B0/" rel="bookmark" title="英国食物小记">英国食物小记</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E9%A4%90%E6%A1%8C%E4%B8%8A%E7%9A%84%E4%B8%96%E7%95%8C%E5%8F%B2%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="bookmark" title="《餐桌上的世界史》（摘）">《餐桌上的世界史》（摘）</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%AD%A4%E7%8B%AC%E5%85%AD%E8%AE%B2%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="bookmark" title="《孤独六讲》（摘）">《孤独六讲》（摘）</a></li><li><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E4%BA%BA%E7%94%9F%E7%9A%84%E6%99%BA%E6%85%A7%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="bookmark" title="《人生的智慧》">《人生的智慧》</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="小叶子"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">小叶子</p>
+  <div class="description" itemprop="description">莽撞的开始，拙劣的完成，也好过因心怀完美主义而不动手去做。</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">23</span>
+        <span class="name">posts</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">5</span>
+        <span class="name">categories</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">27</span>
+        <span class="name">tags</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+      <span class="exturl item github" data-url="aHR0cHM6Ly9naXRodWIuY29tL2xhcmdlc2t1bGw=" title="https:&#x2F;&#x2F;github.com&#x2F;largeskull"><i class="ic i-github"></i></span>
+      <span class="exturl item twitter" data-url="aHR0cHM6Ly90d2l0dGVyLmNvbS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;twitter.com&#x2F;yourname"><i class="ic i-twitter"></i></span>
+      <span class="exturl item zhihu" data-url="aHR0cHM6Ly93d3cuemhpaHUuY29tL3Blb3BsZS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;yourname"><i class="ic i-zhihu"></i></span>
+      <span class="exturl item music" data-url="aHR0cHM6Ly9tdXNpYy4xNjMuY29tLyMvdXNlci9ob21lP2lkPXlvdXJpZA==" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;user&#x2F;home?id&#x3D;yourid"><i class="ic i-cloud-music"></i></span>
+      <span class="exturl item weibo" data-url="aHR0cHM6Ly93ZWliby5jb20veW91cm5hbWU=" title="https:&#x2F;&#x2F;weibo.com&#x2F;yourname"><i class="ic i-weibo"></i></span>
+      <span class="exturl item about" data-url="aHR0cHM6Ly9hYm91dC5tZS95b3VybmFtZQ==" title="https:&#x2F;&#x2F;about.me&#x2F;yourname"><i class="ic i-address-card"></i></span>
+      <span class="exturl item email" data-url="bWFpbHRvOjM1ODU2NzIyNEBxcS5jb20=" title="mailto:358567224@qq.com"><i class="ic i-envelope"></i></span>
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+  </li>
+
+    
+  <li class="item">
+    <a href="/about/" rel="section"><i class="ic i-user"></i>About</a>
+  </li>
+
+        
+  <li class="item dropdown">
+      <a href="javascript:void(0);"><i class="ic i-feather"></i>Posts</a>
+    <ul class="submenu">
+
+        
+  <li class="item">
+    <a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a>
+  </li>
+
+        
+  <li class="item">
+    <a href="/links/" rel="section"><i class="ic i-magic"></i>links</a>
+  </li>
+
+  </ul>
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%9C%86%E5%9C%88%E6%AD%A3%E4%B9%89%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E8%8B%B1%E5%9B%BD%E9%A3%9F%E7%89%A9%E5%B0%8F%E8%AE%B0/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>Random Posts</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E9%A4%90%E6%A1%8C%E4%B8%8A%E7%9A%84%E4%B8%96%E7%95%8C%E5%8F%B2%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" title="《餐桌上的世界史》（摘）">《餐桌上的世界史》（摘）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/003-%E6%9D%82%E4%B9%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/" title="In 003 杂乱的知识库">003 杂乱的知识库</a>
+</div>
+
+    <span><a href="/003%20%E6%9D%82%E4%B9%B1%E7%9A%84%E7%9F%A5%E8%AF%86%E5%BA%93/%E3%80%8C%E6%97%A0%E7%97%9B%E5%8F%A3%E8%AF%AD%E5%8F%98native%E3%80%8D/" title="「无痛口语变native」">「无痛口语变native」</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%9C%86%E5%9C%88%E6%AD%A3%E4%B9%89%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" title="《圆圈正义》（摘）">《圆圈正义》（摘）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E4%BA%BA%E7%94%9F%E7%9A%84%E6%99%BA%E6%85%A7%E3%80%8B%EF%BC%88%E6%91%98%EF%BC%89/" title="《人生的智慧》">《人生的智慧》</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/BOOK/%E3%80%8A%E5%81%9A%E4%B8%80%E4%B8%AA%E6%B8%85%E9%86%92%E7%9A%84%E7%8E%B0%E4%BB%A3%E4%BA%BA%E3%80%8B/" title="《做一个清醒的现代人》（摘）">《做一个清醒的现代人》（摘）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/002-%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/" title="In 002 我の医路">002 我の医路</a>
+</div>
+
+    <span><a href="/002%20%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/%E5%8C%BB%E5%AD%A6%E5%B0%8F%E8%AE%B0%EF%BC%882024.3-6%20%EF%BC%89/%E5%8C%BB%E5%AD%A6%E5%B0%8F%E8%AE%B0%E3%80%8C%E5%A4%96%E6%80%BB%E7%A2%8E%E7%A2%8E%E5%BF%B5%E3%80%8D/" title=" 医学小记「外总碎碎念」"> 医学小记「外总碎碎念」</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/STORY/%E2%80%9C%E7%96%AF%E5%AD%90%EF%BC%9F%E5%AD%A6%E6%9C%AF%E7%96%AF%E5%AD%90%EF%BC%81%E2%80%9D/" title="疯子？学术疯子！">疯子？学术疯子！</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/002-%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/" title="In 002 我の医路">002 我の医路</a>
+</div>
+
+    <span><a href="/002%20%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/%E3%80%8C%E5%8C%BB%EF%BC%9F%E3%80%8D/" title="「医？」（整理ing）">「医？」（整理ing）</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/004-%E9%9A%8F%E8%AE%B0/" title="In 004 随记">004 随记</a>
+</div>
+
+    <span><a href="/004%20%E9%9A%8F%E8%AE%B0/%E5%85%B6%E5%AE%83/%E3%80%8C%E6%97%A0%E7%97%9B%E5%8F%A3%E8%AF%AD%E5%8F%98native%E3%80%8D/" title="「无痛口语变native」">「无痛口语变native」</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/002-%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/" title="In 002 我の医路">002 我の医路</a>
+</div>
+
+    <span><a href="/002%20%E6%88%91%E3%81%AE%E5%8C%BB%E8%B7%AF/%E5%8C%BB%E5%AD%A6%E5%B0%8F%E8%AE%B0%EF%BC%882024.3-6%20%EF%BC%89/%E5%8C%BB%E5%AD%A6%E5%B0%8F%E8%AE%B0%E3%80%8C%E4%BC%A6%E7%90%86%E5%AD%A6%E8%AF%BE%E5%A0%82%E4%B9%B1%E5%86%99%E3%80%8D/" title="医学小记「伦理学课堂乱写」">医学小记「伦理学课堂乱写」</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>Recent Comments</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">小叶子 @ LargeSkull</span>
+  </div>
+  <div class="count">
+    <span class="post-meta-item-icon">
+      <i class="ic i-chart-area"></i>
+    </span>
+    <span title="Symbols count total">NaNm words</span>
+
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="ic i-coffee"></i>
+    </span>
+    <span title="Reading time total">NaN:aN</span>
+  </div>
+  <div class="powered-by">
+    Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '004 随记/BOOK/量子力学+编程通识/',
+    favicon: {
+      show: "（●´3｀●）Goooood",
+      hide: "(´Д｀)Booooom"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    valine: true,fancybox: true,
+    copyright: 'Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
